@@ -38,7 +38,7 @@ public class Main {
 			buffer.append(count++).append(" :")
 					.append(item.getItemName() + "\n");
 		}
-		String productList = "Select Item : \n" + buffer.toString();
+		String productList = "\n Select Item : \n" + buffer.toString();
 
 		buffer.delete(0, buffer.length());
 
@@ -48,7 +48,7 @@ public class Main {
 			buffer.append(itemType.ordinal()).append(" :")
 					.append(itemType.name() + "\n");
 		}
-		String itemTypeList = "Item type: \n" + buffer.toString();
+		String itemTypeList = "\n Select Item type: \n" + buffer.toString();
 
 		Cart cart = InjectorFactory.getInjector().getInstance(Cart.class);
 		for (int i = 0; i < 2; i++) {
@@ -61,13 +61,19 @@ public class Main {
 			}
 			Item item = InjectorFactory.getInjector().getInstance(Item.class);
 			item.setItemDescription(list[product - 1].getItemName());
-			System.out.println("Price");
+			System.out.println("Enter Item Price");
 			item.setItemPrice(input.nextFloat());
 			System.out.println(itemTypeList);
 			item.setItemType(itemTypes[input.nextInt()]);
 
 			cart.addItemToCart(item);
-			System.out.println(cart.getTotalCost());
+
+			System.out
+					.println("Item with Tax : " + +item.getItemPriceWithTax());
+			System.out
+					.println("------------------------------------------------- \n");
+
+			System.out.println("Final Sale Receipt \n");
 
 			// }
 
