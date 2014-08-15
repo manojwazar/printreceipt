@@ -33,6 +33,7 @@ eg :
 
 
  
+
  Select Item : 
 1 :DesignPatterns
 2 :Music CD
@@ -57,8 +58,6 @@ Enter Item Price
 0
 Item with Tax : 11.0
 ------------------------------------------------- 
-
-Final Sale Receipt 
 
 
  Select Item : 
