@@ -73,11 +73,12 @@ public class Main {
 			System.out
 					.println("------------------------------------------------- \n");
 
-			System.out.println("Final Sale Receipt \n");
 
 			// }
 
 		}
+		System.out.println("Final Sale Receipt \n");
+
 		cart.calculateAndPrintReceiptWithTax();
 
 	}
