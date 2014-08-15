@@ -8,7 +8,10 @@ package com.ae.item;
  */
 public class ItemDefine {
 	public enum ItemType {
-		MEDICAL(true, false), FOOD(true, false), OTHERS(false, false);
+		BOOK(true, false), MEDICAL(true, false), FOOD(true, false), OTHERS(
+				false, false), IMPORTED_BOOK(true, true), IMPORTED_MEDICAL(
+				true, true), IMPORTED_FOOD(true, true), IMPORTED_OTHERS(false,
+				true);
 		private boolean isExempted;
 		private boolean isImported;
 
