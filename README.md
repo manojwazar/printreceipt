@@ -32,6 +32,7 @@ If we compile using maven it will package the classes and resources as jar.
 eg :
 
 
+ 
  Select Item : 
 1 :DesignPatterns
 2 :Music CD
@@ -40,10 +41,10 @@ eg :
 5 :Headache Pills
 
 1
-Price
+Enter Item Price
 10
 
- Item type: 
+ Select Item type: 
 0 :BOOK
 1 :MEDICAL
 2 :FOOD
@@ -68,10 +69,10 @@ Final Sale Receipt
 5 :Headache Pills
 
 3
-Price
+Enter Item Price
 5
 
- Item type: 
+ Select Item type: 
 0 :BOOK
 1 :MEDICAL
 2 :FOOD
