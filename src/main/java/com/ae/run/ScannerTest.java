@@ -1,5 +1,12 @@
 package com.ae.run;
 
+/**
+ * Based on the American Express problem details
+ * Scanner test is developed to get the user input details for receipt printing 
+ *  * 
+ * @author manoj
+ * 
+ */
 import java.util.Scanner;
 
 public class ScannerTest {

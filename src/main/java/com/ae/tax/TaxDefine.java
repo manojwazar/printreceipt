@@ -1,7 +1,8 @@
 package com.ae.tax;
 
 /**
- * Tax related define
+ * Based on the American Express problem statement
+ * the taxes and their properties and calculation logic are defined here
  * 
  * @author manoj
  * 

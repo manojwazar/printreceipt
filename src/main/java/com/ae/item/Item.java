@@ -3,7 +3,7 @@ package com.ae.item;
 import com.ae.item.ItemDefine.ItemType;
 
 /**
- * Define Item related properties
+ * All the item related properties mentioned in the American Express problem have been defined here
  * 
  * @author manoj
  * 

@@ -8,7 +8,7 @@ import com.ae.item.Item;
 import com.ae.module.InjectorFactory;
 
 /**
- * command line Test programme
+ * command line Test program
  * 
  * @author manoj
  * 

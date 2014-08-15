@@ -5,7 +5,9 @@ import com.ae.tax.TaxCalculator;
 import com.google.inject.Inject;
 
 /**
- * Item Implementation
+ * Based on the American Express problem statement
+ * Item Implementation is done to calculate the item price based on various criteria
+ * Also calculation for Import duty and Sales taxes as applicable
  * 
  * @author manoj
  * 

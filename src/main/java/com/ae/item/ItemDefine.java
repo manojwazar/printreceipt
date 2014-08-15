@@ -1,7 +1,10 @@
 package com.ae.item;
 
 /**
- * Item related Define
+ * As per the problem statement of American Express,
+ * We have Item with various properties like name, type etc 
+ * We also have different taxes based on the type like imported duty exempt, sales taxes etc 
+ * 
  * 
  * @author manoj
  * 

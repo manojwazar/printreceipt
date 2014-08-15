@@ -1,4 +1,12 @@
 package com.ae.cart;
+/**
+ * Based on the American Express problem details
+ * This object is created which will calculate the total cost based on the criteria
+ *  
+ * 
+ * @author manoj
+ * 
+ */
 
 import java.text.DecimalFormat;
 import java.text.Format;

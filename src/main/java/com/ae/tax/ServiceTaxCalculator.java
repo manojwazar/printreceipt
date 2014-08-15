@@ -4,7 +4,8 @@ import com.ae.item.Item;
 import com.ae.tax.TaxDefine.TaxType;
 
 /**
- * Tax Calculator implementation
+ * Based on the American Express problem statement
+ * Service taxes calculation logic is defined here based on various criteria 
  * 
  * @author manoj
  * 

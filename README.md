@@ -24,15 +24,11 @@ The application can be cloned from
 
 	https://github.com/manojwazar/printreceipt
 
-It can be run standalone by run as java application for Main.java
+It can be run stand alone by run as java application for Main.java
 
 If we compile using maven it will package the classes and resources as jar.
 
-
-eg :
-
-
- 
+eg : 
 
  Select Item : 
 1 :DesignPatterns
